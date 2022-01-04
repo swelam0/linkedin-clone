@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import Login from "./components/login"
+import LoginPage from "./containers/LoginPage"
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <Router>
         <Switch>
           <Route excat path="/">
-            <Login />
+            <LoginPage />
           </Route>
         </Switch>
       </Router>
