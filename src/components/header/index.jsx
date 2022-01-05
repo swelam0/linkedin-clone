@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Nav from "./Nav"
 import Search from "./Search"
 
 const Header = () => {
@@ -10,8 +11,9 @@ const Header = () => {
             <img src="/images/home-logo.svg" alt="logo" />
           </a>
         </Logo>
-        
+
         <Search />
+        <Nav />
       </Content>
     </Container>
   )
@@ -33,6 +35,7 @@ const Content = styled.div`
   margin: 0 auto;
   min-height: 100%;
   max-width: 1128px;
+  padding: 5px 0;
 `
 const Logo = styled.div`
   margin-right: 8px;
