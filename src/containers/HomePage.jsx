@@ -25,6 +25,7 @@ const HomePage = () => {
 
 const Container = styled.div`
 	padding-top: 70px;
+	padding-bottom: 70px;
 	max-width: 100%;
 
 	@media (max-width: 992px) {
