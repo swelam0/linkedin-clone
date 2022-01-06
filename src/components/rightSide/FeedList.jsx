@@ -45,8 +45,7 @@ const Container = styled.ul`
 		button {
 			background-color: transparent;
 			color: rgba(0, 0, 0, 0.6);
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.6);
-			padding: 15px;
+			padding: 2px 15px;
 			align-items: center;
 			border-radius: 15px;
 			box-sizing: border-box;
@@ -57,6 +56,13 @@ const Container = styled.ul`
 			max-width: 480px;
 			text-align: center;
 			outline: none;
+			border: 1px solid rgba(0, 0, 0, 0.4);
+			transition: all 0.5s ease;
+
+			&:hover {
+				color: #70b5f9;
+				border-color: #70b5f9;
+			}
 		}
 	}
 `

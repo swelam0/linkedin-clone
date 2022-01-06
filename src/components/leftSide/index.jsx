@@ -28,7 +28,12 @@ const LeftSide = () => {
 }
 
 const Container = styled.div`
-	grid-area: 'leftside';
+	width: 100%;
+	max-width: 360px;
+
+	@media (max-width: 992px) {
+		max-width: unset;
+	}
 `
 const ArtCard = styled.div`
 	text-align: center;
