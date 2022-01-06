@@ -1,10 +1,12 @@
 import styled from 'styled-components'
+import Article from '../article'
 import ShareBox from './ShareBox'
 
 const Main = () => {
 	return (
 		<Container>
 			<ShareBox />
+			<Article />
 		</Container>
 	)
 }
