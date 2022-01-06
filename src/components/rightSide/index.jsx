@@ -1,9 +1,15 @@
+import styled from 'styled-components'
+
 const RightSide = () => {
 	return (
-		<div>
+		<Container>
 			<h1>right side</h1>
-		</div>
+		</Container>
 	)
 }
+
+const Container = styled.div`
+	grid-area: 'rightside';
+`
 
 export default RightSide

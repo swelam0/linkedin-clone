@@ -1,9 +1,14 @@
+import styled from 'styled-components'
+
 const Main = () => {
 	return (
-		<div>
-			<h1>main</h1>
-		</div>
+		<Container>
+			<h1>Main</h1>
+		</Container>
 	)
 }
 
+const Container = styled.div`
+	grid-area: 'main';
+`
 export default Main

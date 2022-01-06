@@ -97,17 +97,17 @@ const User = styled.div`
 		opacity: 0.7;
 	}
 
+	&:hover {
+		${SignOut} {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+
 	@media (max-width: 992px) {
 		${SignOut} {
 			top: unset;
 			bottom: 50px;
-		}
-
-		&:hover {
-			${SignOut} {
-				opacity: 1;
-				visibility: visible;
-			}
 		}
 	}
 `
